@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="logo.jpg" alt="logo" width="160"  height="auto" />
+  <img src="logo.jpg" alt="logo" width="200"  height="auto" />
   <br/>
 
   <h3><b>Financial Stock Webapp</b></h3>
