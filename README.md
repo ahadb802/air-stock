@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
   <img src="logo.jpg" alt="logo" width="160"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Financial Stock Webapp</b></h3>
 
 </div>
 
