@@ -86,10 +86,15 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click <a href="https://www.loom.com/share/bb4e92f5ece64a7db30c2d2df187fc1d">Here</a>
+For Live demo Click <a href="https://www.loom.com/share/bb4e92f5ece64a7db30c2d2df187fc1d">Here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Version <a name="live-demo"></a>
+
+For Live Version Click <a href="https://bucolic-meringue-c6793e.netlify.app/">Here</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started
@@ -126,8 +131,12 @@ $ git clone https://github.com/ahadb802/air-stock.git
 This website is applicable for both mobile and desktop version.
 
 ### Run tests
-
+```
+npm run Test
+```
 ### Deployment
+
+Deployed on Netlify.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +156,6 @@ This website is applicable for both mobile and desktop version.
 
 - [ ] **Styling of the webpage**
 - [ ] **Animation to add or remove functionality**
-- [ ] **Adding responsiveness**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,6 +185,7 @@ I would like to thank:
 - [Microverse](https://www.microverse.org/)
 - Code Reviewers
 - Coding Partners
+- Nelson Sakwa the author of the original design. and i am very gratefull that i can use the his idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,4 +199,4 @@ I would like to thank:
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed. Original design idea by Nelson Sakwa on Behance. and i am very gratefull that i can use the his idea. 
+This project is [MIT](./LICENSE) licensed.  
