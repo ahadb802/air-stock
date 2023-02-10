@@ -92,7 +92,7 @@ For Live Description Click <a href="https://www.loom.com/share/bb4e92f5ece64a7db
 
 ## 🚀 Live Version <a name="live-demo"></a>
 
-For Live Version Click <a href="https://bucolic-meringue-c6793e.netlify.app/">Here</a>
+For Live Version Click <a href="https://resilient-florentine-392218.netlify.app/">Here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
