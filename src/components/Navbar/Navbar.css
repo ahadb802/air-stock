@@ -1,0 +1,17 @@
+.nav {
+  background-color: #ec4c8a;
+  justify-content: center !important;
+  width: 100%;
+}
+
+.links {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.icon {
+  font-size: 25px;
+  margin-left: 10px;
+  color: white;
+}

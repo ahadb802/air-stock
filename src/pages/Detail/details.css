@@ -1,0 +1,48 @@
+h1 {
+  color: white;
+}
+
+.detail-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.items-list {
+  width: 100%;
+  border: none;
+  border-radius: 0;
+}
+
+.list {
+  display: flex;
+  height: 80px;
+  border: none;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #fc5193;
+}
+
+.list:nth-child(even) {
+  background-color: #ec4c8a;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 150px;
+}
+
+.images {
+  width: 85px;
+}
+
+.data {
+  flex-direction: column;
+  align-self: center;
+}

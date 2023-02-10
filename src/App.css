@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-color: #fc5193;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.cards {
+  text-decoration: none;
+  width: 50%;
+}
+
+span {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 55px;
+}
+
+.light {
+  background-color: #fc5193;
+  overflow: hidden;
+  border: 1px solid #ec4c8a;
+  border-color: #ec4c8a;
+  width: 50%;
+  padding: 10px;
+}
+
+.light:nth-child(4n + 2),
+.light:nth-child(4n + 3) {
+  background-color: #ec4c8a;
+}
+
+.card-b {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  width: 100%;
+}
+
+.card-bd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.text {
+  font-size: large;
+}
+
+.data-handle {
+  gap: 15px;
+  width: 100%;
+  height: 140px;
+}
+
+.form {
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 50%;
+  opacity: 0.8;
+}
+
+.satas {
+  width: 100%;
+  background-color: #ec4c8a;
+  color: white;
+  margin: 0;
+  padding: 5px;
+}
+
+.fav-ion {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.coins-image {
+  opacity: 0.8;
 }
