@@ -62,13 +62,21 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- HTML, CSS, JavaScript, Reactjs
+- CSS, JavaScript, Reactjs, Redux 
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Home page
+
+    When the page loads, the webapp shows the list of categories that could be filtered out by name and rank
+    When the user clicks (or taps) on a category item, the application navigates to the details page.
+
+> Details page
+
+    In the details page, the webapp retrieves data from the API to show detailed data in the category.
+    When the user clicks on the "Back" button (X), the user navigates to the home page.
 
 - Use webpack to bundle React js.
 
@@ -78,7 +86,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click <a href="https://tourmaline-chebakia-a54d98.netlify.app/">Here</a>
+Click <a href="https://www.loom.com/share/bb4e92f5ece64a7db30c2d2df187fc1d">Here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,14 +111,14 @@ $ node --version && npm --version
 ```
 ### Setup
 
-Clone the repository using [this link](https://github.com/ahadb802/first-react-app-magic-calculator.git)
+Clone the repository using [this link](https://github.com/ahadb802/air-stock.git)
 
 ### Install
 
 In the terminal, go to your file directory and run this command.
 
 ```
-$ git clone https://github.com/ahadb802/first-react-app-magic-calculator.git
+$ git clone https://github.com/ahadb802/air-stock.git
 ```
 
 ### Usage
@@ -182,4 +190,4 @@ I would like to thank:
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed. Original design idea by Nelson Sakwa on Behance. and i am very gratefull that i can use the his idea. 
