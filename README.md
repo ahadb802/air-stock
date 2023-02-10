@@ -58,7 +58,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Project Name
 
-#### Webpack Template
+#### AIR Stock
 
 ## 🛠 Built With <a name="built-with"></a>
 
