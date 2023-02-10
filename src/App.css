@@ -8,34 +8,30 @@
 }
 
 body {
-  background-color: rgb(242, 137, 179);
+  background-color: rgb(41, 3, 255);
 }
 
 section {
   display: flex;
   flex-direction: column;
   width: 100%;
-  justify-content: center;
-  align-items: center;
 }
 
 .section {
-  margin-top: 20px;
-  width: 80%;
+  width: 100%;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
   height: 100%;
 }
 
-a {
+.cards {
   text-decoration: none;
+  width: 50%;
+  border: 1px solid blue;
+  border-color: blue;
 }
 
 span {
-  margin-right: 5px;
-  font-size: 20px;
   align-items: center;
   display: flex;
   gap: 5px;
@@ -48,5 +44,58 @@ span {
 }
 
 img {
-  width: 35px;
+  width: 55px;
+}
+
+.card {
+  color: white;
+  background-color: rgb(22, 79, 171);
+  border: none;
+  border-radius: 0%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.card-b {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  width: 100%;
+}
+
+.card-bd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.text {
+  font-size: large;
+}
+
+.data-handle {
+  gap: 15px;
+  width: 100%;
+  height: 140px;
+}
+
+.form {
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 50%;
+  opacity: 0.8;
+}
+
+.satas {
+  width: 100%;
+  background-color: rgb(0, 65, 170);
+  color: white;
+  margin: 0;
+  padding: 5px;
 }
