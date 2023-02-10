@@ -5,10 +5,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
-  background-color: rgb(41, 3, 255);
+  background-color: #fc5193;
 }
 
 section {
@@ -22,13 +28,13 @@ section {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .cards {
   text-decoration: none;
   width: 50%;
-  border: 1px solid blue;
-  border-color: blue;
 }
 
 span {
@@ -47,13 +53,18 @@ img {
   width: 55px;
 }
 
-.card {
-  color: white;
-  background-color: rgb(22, 79, 171);
-  border: none;
-  border-radius: 0%;
-  height: 150px;
+.light {
+  background-color: #fc5193;
   overflow: hidden;
+  border: 1px solid #ec4c8a;
+  border-color: #ec4c8a;
+  width: 50%;
+  padding: 10px;
+}
+
+.light:nth-child(4n + 2),
+.light:nth-child(4n + 3) {
+  background-color: #ec4c8a;
 }
 
 .card-b {
@@ -94,8 +105,18 @@ img {
 
 .satas {
   width: 100%;
-  background-color: rgb(0, 65, 170);
+  background-color: #ec4c8a;
   color: white;
   margin: 0;
   padding: 5px;
+}
+
+.fav-ion {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.coins-image {
+  opacity: 0.8;
 }
