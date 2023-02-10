@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import { useDispatch, useSelector } from 'react-redux';
-import { NavLink } from 'react-router-dom';
+
 import Cards from '../../components/Card/Cards';
 import { allCoins } from '../../redux/home-reducer';
 import logo from '../../images/1960x0.jpg';
@@ -41,25 +41,22 @@ const Home = () => {
         </Form>
       </div>
       <p className="satas">Stats Of Crypto</p>
-      <div className="section">
+      <ul className="section">
         {
                        filter.map((item) => (
-                         <NavLink
-                           className="cards"
-                           to={`Details/${item.name}`}
-                           key={item.id}
-                         >
-                           <Cards
-                             name={item.name}
-                             priceUsd={item.price}
-                             rank={item.rank}
-                             symbol={item.symbol}
-                             image={item.icon}
-                           />
-                         </NavLink>
+
+                         <Cards
+                           key={item.rank}
+                           name={item.name}
+                           priceUsd={item.price}
+                           rank={item.rank}
+                           symbol={item.symbol}
+                           image={item.icon}
+                         />
+
                        ))
                     }
-      </div>
+      </ul>
     </section>
   );
 };

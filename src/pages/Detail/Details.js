@@ -1,7 +1,6 @@
-import CloseButton from 'react-bootstrap/CloseButton';
 import ListGroup from 'react-bootstrap/ListGroup';
 import React, { useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import './details.css';
 import { allCoins } from '../../redux/home-reducer';
@@ -23,7 +22,6 @@ function Details() {
             <div key={item.id}>
               <div className="header">
                 <div>
-                  <Link to="/" type="button"><CloseButton /></Link>
                   <img className="images" src={item.icon} alt={item.name} />
                 </div>
                 <div className="d-flex data">
