@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import Cards from '../../components/Card/Cards';
 import { allCoins } from '../../redux/home-reducer';
+import logo from '../../images/1960x0.jpg';
 
 const Home = () => {
   const [search, setSearch] = useState('');
@@ -25,20 +26,26 @@ const Home = () => {
   ) : [];
   return (
     <section>
-      <Form className="d-flex" style={{ width: '18rem' }}>
-        <Form.Control
-          type="search"
-          placeholder="Enter Your Coin Name"
-          className="me-2"
-          aria-label="Search"
-          onChange={handleSearch}
-          value={search}
-        />
-      </Form>
+      <div className="data-handle d-flex">
+        <img className="logo" src={logo} alt="" />
+        <Form className="form d-flex">
+          <h2 className="main-titile" style={{ color: 'white' }}>AIR STOCK</h2>
+          <Form.Control
+            type="search"
+            placeholder="Search here"
+            className="me-2"
+            aria-label="Search"
+            onChange={handleSearch}
+            value={search}
+          />
+        </Form>
+      </div>
+      <p className="satas">Stats Of Crypto</p>
       <div className="section">
         {
                        filter.map((item) => (
                          <NavLink
+                           className="cards"
                            to={`Details/${item.name}`}
                            key={item.id}
                          >
