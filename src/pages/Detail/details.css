@@ -1,0 +1,36 @@
+.detail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.detail-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.items-list {
+  width: 60%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 60%;
+}
+
+@media (max-width: 786px) {
+  .items-list {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+  }
+}
