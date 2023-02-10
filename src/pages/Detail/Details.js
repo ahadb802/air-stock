@@ -17,64 +17,100 @@ function Details() {
 
   const filtere = Coins.filter((item) => item.name === name);
   return (
-    <div className="detail-container">
-      <div className="detail-wrapper">
-        <Link to="/" type="button"><CloseButton /></Link>
-        {
+    <div className="detail-wrapper">
+      {
           filtere.map((item) => (
             <div key={item.id}>
               <div className="header">
-                <img src={item.icon} alt={item.name} />
-                <h1>{item.name}</h1>
-
+                <div>
+                  <Link to="/" type="button"><CloseButton /></Link>
+                  <img className="images" src={item.icon} alt={item.name} />
+                </div>
+                <div className="d-flex data">
+                  <h1>{item.name}</h1>
+                  <p style={{ color: 'white' }}>
+                    Price : $
+                    {Math.round(item.price * 100) / 100 }
+                  </p>
+                </div>
               </div>
-              <ListGroup as="ol" numbered className="items-list">
-                <ListGroup.Item as="li">
-                  Rank :
-                  {item.rank}
+              <p className="satas">Stats Of Coin</p>
+              <ListGroup as="ol" className="items-list">
+                <ListGroup.Item as="li" className="list">
+                  <p>Rank :</p>
+                  <p>{item.rank}</p>
                 </ListGroup.Item>
-                <ListGroup.Item as="li">
-                  Price :
-                  {Math.round(item.price * 100) / 100 }
+                <ListGroup.Item as="li" className="list">
+                  <p>Price :</p>
+                  <p>
+                    $
+                    {Math.round(item.price * 100) / 100 }
+                  </p>
                 </ListGroup.Item>
-                <ListGroup.Item as="li">
-                  Price in BTC :
-                  {Math.round(item.priceBtc * 100) / 100 }
+                <ListGroup.Item as="li" className="list">
+                  <p>Price in BTC :</p>
+                  <p>
+                    $
+                    {Math.round(item.priceBtc * 100) / 100 }
+                  </p>
                 </ListGroup.Item>
-                <ListGroup.Item as="li">
-                  Volume :
-                  {Math.round(item.volume * 100) / 100 }
+                <ListGroup.Item as="li" className="list">
+                  <p>Volume :</p>
+                  <p>
+                    $
+                    {Math.round(item.volume * 100) / 100 }
+                  </p>
                 </ListGroup.Item>
-                <ListGroup.Item as="li">
-                  MarketCap :
-                  {Math.round(item.marketCap * 100) / 100 }
+                <ListGroup.Item as="li" className="list">
+                  <p>MarketCap :</p>
+                  <p>
+                    $
+                    {Math.round(item.marketCap * 100) / 100 }
+                  </p>
                 </ListGroup.Item>
-                <ListGroup.Item as="li">
-                  Available Supply :
-                  {Math.round(item.availableSupply * 100) / 100 }
+                <ListGroup.Item as="li" className="list">
+                  <p>Available Supply :</p>
+                  <p>
+                    $
+                    {Math.round(item.availableSupply * 100) / 100 }
+                  </p>
                 </ListGroup.Item>
-                <ListGroup.Item as="li">
-                  Total Supply :
-                  {Math.round(item.totalSupply * 100) / 100 }
+                <ListGroup.Item as="li" className="list">
+                  <p>Total Supply :</p>
+                  <p>
+                    $
+                    {Math.round(item.totalSupply * 100) / 100 }
+                  </p>
                 </ListGroup.Item>
-                <ListGroup.Item as="li">
-                  Price Change in 1h :
-                  {Math.round(item.priceChange1h * 100) / 100 }
+                <ListGroup.Item as="li" className="list">
+                  <p>Price Change in 1h :</p>
+                  <p>
+                    {Math.round(item.priceChange1h * 100) / 100 }
+                    {' '}
+                    %
+                  </p>
                 </ListGroup.Item>
-                <ListGroup.Item as="li">
-                  Price Change in 1d :
-                  {Math.round(item.priceChange1d * 100) / 100 }
+                <ListGroup.Item as="li" className="list">
+                  <p>Price Change in 1d :</p>
+                  <p>
+                    {Math.round(item.priceChange1d * 100) / 100 }
+                    {' '}
+                    %
+                  </p>
                 </ListGroup.Item>
-                <ListGroup.Item as="li">
-                  Price Change in 1w :
-                  {Math.round(item.priceChange1w * 100) / 100 }
+                <ListGroup.Item as="li" className="list">
+                  <p>Price Change in 1w :</p>
+                  <p>
+                    {Math.round(item.priceChange1w * 100) / 100 }
+                    {' '}
+                    %
+                  </p>
                 </ListGroup.Item>
 
               </ListGroup>
             </div>
           ))
         }
-      </div>
     </div>
   );
 }
