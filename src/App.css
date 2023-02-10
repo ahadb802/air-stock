@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   color: white;
-  text-decoration: none;
 }
 
 a {
@@ -113,7 +112,7 @@ img {
 
 .fav-ion {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   width: 100%;
 }
 
